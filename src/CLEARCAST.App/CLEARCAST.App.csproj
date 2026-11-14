@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CLEARCAST.Application\CLEARCAST.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>annotations</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>CLEARCAST.App</RootNamespace>
+    <AssemblyName>CLEARCAST.App</AssemblyName>
+  </PropertyGroup>
+
+<ItemGroup><PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.22.0" /></ItemGroup></Project>
